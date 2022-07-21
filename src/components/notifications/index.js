@@ -34,7 +34,7 @@ import TechulusPush from "./TechulusPush.vue";
 import Telegram from "./Telegram.vue";
 import Webhook from "./Webhook.vue";
 import WeCom from "./WeCom.vue";
-import SeaTalk from "./Seatalk.vue";
+import SeaTalk from "./SeaTalk.vue";
 
 /**
  * Manage all notification form.
