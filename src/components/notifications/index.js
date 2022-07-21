@@ -34,6 +34,7 @@ import TechulusPush from "./TechulusPush.vue";
 import Telegram from "./Telegram.vue";
 import Webhook from "./Webhook.vue";
 import WeCom from "./WeCom.vue";
+import SeaTalk from "./Seatalk.vue";
 
 /**
  * Manage all notification form.
@@ -68,6 +69,7 @@ const NotificationFormList = {
     "pushover": Pushover,
     "pushy": Pushy,
     "rocket.chat": RocketChat,
+    "seatalk": SeaTalk,
     "serwersms": SerwerSMS,
     "signal": Signal,
     "slack": Slack,

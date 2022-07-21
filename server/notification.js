@@ -26,6 +26,7 @@ const PushDeer = require("./notification-providers/pushdeer");
 const Pushover = require("./notification-providers/pushover");
 const Pushy = require("./notification-providers/pushy");
 const RocketChat = require("./notification-providers/rocket-chat");
+const SeaTalk = require("./notification-providers/seatalk");
 const SerwerSMS = require("./notification-providers/serwersms");
 const Signal = require("./notification-providers/signal");
 const Slack = require("./notification-providers/slack");
@@ -74,6 +75,7 @@ class Notification {
             new Pushover(),
             new Pushy(),
             new RocketChat(),
+            new SeaTalk(),
             new SerwerSMS(),
             new Signal(),
             new Slack(),
