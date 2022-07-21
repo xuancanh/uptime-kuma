@@ -5,8 +5,11 @@ version: '3.3'
 
 services:
   uptime-kuma:
-    image: louislam/uptime-kuma:1
+    image: uptime-kuma
     container_name: uptime-kuma
+    build:
+      context: ..
+      dockerfile: ./docker/dockerfile
     volumes:
       - ./uptime-kuma-data:/app/data
     ports:
