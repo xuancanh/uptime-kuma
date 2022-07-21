@@ -4,14 +4,14 @@ const axios = require("axios");
 
 class SeaTalk extends NotificationProvider {
 
-    name = "seatalk";
+    name = "SeaTalk";
 
     async send(notification, msg, monitorJSON = null, heartbeatJSON = null) {
         let okMsg = "Sent Successfully.";
 
         try {
             let data = {
-                tag: "test",
+                tag: "text",
                 text: {
                     content: msg,
                 },
