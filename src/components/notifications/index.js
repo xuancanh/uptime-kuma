@@ -69,7 +69,7 @@ const NotificationFormList = {
     "pushover": Pushover,
     "pushy": Pushy,
     "rocket.chat": RocketChat,
-    "seatalk": SeaTalk,
+    "SeaTalk": SeaTalk,
     "serwersms": SerwerSMS,
     "signal": Signal,
     "slack": Slack,
