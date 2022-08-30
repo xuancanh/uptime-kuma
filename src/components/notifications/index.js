@@ -10,7 +10,9 @@ import Feishu from "./Feishu.vue";
 import GoogleChat from "./GoogleChat.vue";
 import Gorush from "./Gorush.vue";
 import Gotify from "./Gotify.vue";
+import HomeAssistant from "./HomeAssistant.vue";
 import Line from "./Line.vue";
+import LineNotify from "./LineNotify.vue";
 import LunaSea from "./LunaSea.vue";
 import Matrix from "./Matrix.vue";
 import Mattermost from "./Mattermost.vue";
@@ -54,7 +56,9 @@ const NotificationFormList = {
     "GoogleChat": GoogleChat,
     "gorush": Gorush,
     "gotify": Gotify,
+    "HomeAssistant": HomeAssistant,
     "line": Line,
+    "LineNotify": LineNotify,
     "lunasea": LunaSea,
     "matrix": Matrix,
     "mattermost": Mattermost,
