@@ -481,6 +481,7 @@ export default {
                 if (this.$root.publicGroupList.length === 0) {
                     this.addGroup();
                 }
+                monitor.sendUrl = false
 
                 const firstGroup = this.$root.publicGroupList[0];
 
